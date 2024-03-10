@@ -118,7 +118,7 @@ declare type SearchParamProps = {
   searchParams: { [key: string]: string | string[] | undefined };
 };
 
-declare type TransformationFormProps = {
+ export  interface TransformationFormProps  {
   action: "Add" | "Update";
   userId: string;
   type: TransformationTypeKey;
